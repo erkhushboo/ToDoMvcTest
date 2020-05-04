@@ -20,7 +20,7 @@ public class ToDoMVCTest {
   @Test
   public void TestcaseOne() throws InterruptedException {
 	  
-	  driver.get("https://todomvc.com/");
+	  driver.get("http://todomvc.com/");
 	  Thread.sleep(15000);
 	  driver.manage().window().maximize();	
 	  // Store the text 
